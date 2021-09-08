@@ -1,5 +1,5 @@
 import './App.css';
-import {Component, Suspense} from "react";
+import {Suspense} from "react";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./routes/About";
