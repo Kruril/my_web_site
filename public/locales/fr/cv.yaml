@@ -1,0 +1,79 @@
+cv:
+  label: Développeur junior Full Stack
+  personal_info:
+    address:
+      street: Rue Robert
+      number: 11
+      postal_code: 7160
+      town: Chapelle lez herlaimont
+    phone: +32 499/29.71.63
+    email: guillaume.charlier.2017@gmail.com
+    linkedIn: linkedin.com/in/guillaume-charlier-oslo
+    driving_licence: Permis B (sans voiture)
+    born: "1999-12-07"
+  me:
+    qualities_label: Qualités
+    qualities:
+      - Autonome
+      - Rigoureux
+      - Discipliné
+    faults_label: Défauts
+    faults:
+      - timide
+    hobbies_label: Intérêts
+    hobbies:
+      - Sport (Squash, Badminton)
+      - Animaux
+      - Marche
+    languages_label: Langues
+    languages:
+      - Francais
+      - Anglais
+  experiences_label: Expériences
+  experiences:
+    - start: Mars 2021
+      end: Mai 2021
+      label: Développeur Back-end
+      place: Necko Technologies
+      details:
+        - Réalisation d'application serverless grâce aux Amazon Web Services
+        - Création d'API en utilisant GraphQl et Aws Smithy
+        - Perfectionnement du langage Python
+    - start: Mars 2018
+      end: Mars 2018 (1 semaine)
+      label: Stage d'observation
+      place: Proximus
+      details:
+        - Observation du quotidien
+        - Visite des différents services présents sur place et d'un datacenter
+        - Mise en place de Query SQL
+        - Initialisation de nouveau serveur
+  formations_label: Formations
+  formations:
+    - start: 2018
+      end: 2021
+      place: HELHa Mons
+      label: Bachelier en informatique de gestion
+      details:
+        - Apprentissage de différents langages de programmation
+        - Création d'application Front-end et Back-end
+    - start: ""
+      end: Juillet 2019
+      place: Coala ASBL Mons
+      label: Formation à l'accueil extrascolaire
+      details:
+        - Attitudes et postures professionnelles de l'animateur de plaines de vacances
+    - start: ""
+      end: Juin 2018
+      place: Athenée Royal Marguerite Bervoets Mons
+      label: CESS
+      details:
+        - Mathématiques et Sciences Fortes
+  it_skills:
+    - Microsoft Office
+    - Python
+    - Java 8/11, JavaEE
+    - C, C++, C#
+    - Développement Web (HTML/CSS, PHP, Angular, React)
+    - SQL (MySQL, PostgreSQL)
+    - NoSQL (AWS DynamoDB)

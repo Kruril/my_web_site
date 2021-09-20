@@ -1,29 +1,31 @@
 import './App.css';
-import {Suspense} from "react";
+import React, { Suspense } from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import NavBar from "./components/NavBar";
 import About from "./routes/About";
 import Home from "./routes/Home";
 import Error from "./routes/Error";
+import Cv from "./routes/Cv";
 
 export default function App() {
 
     return (
-        <Router basename={process.env.REACT_APP_ROUTER_BASE || ""}>
-            <div className="flex flex-col h-screen">
-                <Suspense fallback={'loading'}>
+        <Suspense fallback="loading">
+            <Router basename={process.env.REACT_APP_ROUTER_BASE || ""}>
+                <div className="flex flex-col h-screen">
                     <NavBar/>
-                </Suspense>
 
-                <div className="flex flex-1 flex-col overflow-y-scroll">
-                    <Switch>
-                        <Route path="/home" exact component={Home} />
-                        <Route path={"/about"} exact component={About} />
-                        <Route path={'/'} exact component={Home} />
-                        <Route exact component={Error} />
-                    </Switch>
+                    <div className="flex flex-1 flex-col">
+                        <Switch>
+                            <Route path="/home" exact component={Home} />
+                            <Route path={"/about"} exact component={About} />
+                            <Route path={"/cv"} exact component={Cv} />
+                            <Route path={'/'} exact component={Home} />
+                            <Route exact component={Error} />
+                        </Switch>
+                    </div>
                 </div>
-            </div>
-        </Router>
+            </Router>
+        </Suspense>
     );
 }

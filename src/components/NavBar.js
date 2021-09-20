@@ -4,11 +4,11 @@ import {useTranslation} from "react-i18next";
 export default function NavBar() {
     const {t, i18n} = useTranslation();
     const changeLanguage = (lng) => {
-        i18n.changeLanguage(lng);
+        i18n.changeLanguage(lng).then();
     };
     return (
         <div
-            className="z-50 sticky top-0 p-4 items-center bg-black bg-opacity-80 flex border-b-2 text-white"
+            className="z-50 sticky top-0 p-4 items-center bg-g_blue-dark bg-opacity-80 flex border-b-2 text-white"
         >
             <div className="flex-grow text-lg">
                 <Link to={"/"}>
@@ -30,11 +30,6 @@ export default function NavBar() {
                 </button>
 
             </div>
-            <div className={"object-right"}>
-
-
-            </div>
-
         </div>
     );
 }
