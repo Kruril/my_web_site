@@ -5,12 +5,15 @@ import Courses from "../components/Courses";
 
 export default function Cv() {
 
-    const {t,} = useTranslation(['cv']);
+    const {t, } = useTranslation(['cv']);
 
     let cv = t("cv", {returnObjects: true})
     console.log(cv)
 
-    const age = Math.floor((new Date() - new Date(cv.personal_info.born).getTime()) / 3.15576e+10)
+    let age = 0
+    if (cv.personal_info.born !== undefined) {
+        age = Math.floor((new Date() - new Date(cv.personal_info.born).getTime()) / 3.15576e+10)
+    }
 
     let qualities = []
 
