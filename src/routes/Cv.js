@@ -5,7 +5,7 @@ import Courses from "../components/Courses";
 
 export default function Cv() {
 
-    const {t, } = useTranslation(['cv']);
+    const {t, i18n} = useTranslation(['cv']);
 
     let cv = t("cv", {returnObjects: true})
     console.log(cv)
@@ -84,7 +84,7 @@ export default function Cv() {
                         icon={mdiCarOutline}
                     />
                     <PersonalInfo
-                        text={age + " ans"}
+                        text={age + (i18n.language === "fr"? " ans": " years")}
                         icon={mdiCake}
                     />
 
