@@ -33,10 +33,10 @@ i18n
             escapeValue: false, // not needed for react as it escapes by default
         },
         backend: {
-            loadPath: "/locales/{{lng}}/{{ns}}.yml",
-            parse: function (data) {
-                return yaml.load(data)
-             },
+            loadPath: "/locales/{{lng}}/{{ns}}.json",
+            // parse: function (data) {
+            //     return yaml.load(data)
+            //  },
         }
     }).then();
 

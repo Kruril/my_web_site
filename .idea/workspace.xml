@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/locales/en/common.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/fr/common.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/locales/fr" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -112,7 +113,7 @@
       <workItem from="1631893791704" duration="6930000" />
       <workItem from="1632053808093" duration="14646000" />
       <workItem from="1632125545520" duration="23844000" />
-      <workItem from="1632211012679" duration="5705000" />
+      <workItem from="1632211012679" duration="6935000" />
     </task>
     <servers />
   </component>
