@@ -17,7 +17,7 @@ export default function NavBar() {
             </div>
             <div className="object-right">
                 <Link to={"/about"} className={"text-lg hover:text-gray-300"}>
-                    {t('about.label')}
+                    {t('labels.about')}
                 </Link>
 
                 <button type="button" onClick={() => changeLanguage('fr')}

@@ -1,35 +1,37 @@
 cv:
-  label: Junior Full Stack Developer
-  personal_info:
+  labels:
+    job: Junior Full Stack Developer
+    qualities: Qualities
+    faults: Faults
+    hobbies: Hobbies
+    languages: Languages
+    experiences: Experiences
+    formations: Formations
+    itSkills: Skills
+  personalInfo:
     address:
       street: Rue Robert
       number: 11
-      postal_code: 7160
+      postalCode: 7160
       town: Chapelle lez herlaimont
     phone: +32 499/29.71.63
     email: guillaume.charlier.2017@gmail.com
     linkedIn: linkedin.com/in/guillaume-charlier-oslo
-    driving_licence: driving licence (without car)
+    drivingLicence: driving licence (without car)
     born: "1999-12-07"
-  me:
-    qualities_label: Qualities
-    qualities:
-      - Autonomous
-      - Rigorous
-      - Disciplined
-    faults_label: Faults
-    faults:
-      - shy
-    hobbies_label: Hobbies
-    hobbies:
-      - Sports (Squash, Badminton)
-      - Animauls
-      - walk
-    languages_label: Languages
-    languages:
-      - French
-      - English
-  experiences_label: Experiences
+  qualities:
+    - Autonomous
+    - Rigorous
+    - Disciplined
+  faults:
+    - shy
+  hobbies:
+    - Sports (Squash, Badminton)
+    - Animauls
+    - walk
+  languages:
+    - French
+    - English
   experiences:
     - start: March 2021
       end: May 2021
@@ -48,7 +50,6 @@ cv:
         - Visit of the different services present on site and of a datacenter
         - Implementation of Query SQL
         - Initialization of new server
-  formations_label: Formations
   formations:
     - start: 2018
       end: 2021
@@ -69,8 +70,7 @@ cv:
       label: CESS
       details:
         - Mathematics and Sciences
-  it_skills_label: Skills
-  it_skills:
+  itSkills:
     - Microsoft Office
     - Python
     - Java 8/11, JavaEE

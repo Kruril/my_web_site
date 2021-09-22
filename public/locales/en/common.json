@@ -1,6 +1,16 @@
 ﻿{
+  "labels": {
+    "about": "about",
+    "whoAmI": "Who am I ?",
+    "technologies": "Used technologies"
+  },
   "about": {
-    "label": "about",
-    "desc-1": ""
+    "whoAmI": "I am a young Full Stack developer with a preference for the Backend. I followed a bachelor's degree in IT at Mons. You can see my ",
+    "technologies": [
+      "ReactJS",
+      "Tailwinds CSS",
+      "i18Next",
+      "AWS Amplify"
+    ]
   }
 }

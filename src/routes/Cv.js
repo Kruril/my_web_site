@@ -4,21 +4,23 @@ import PersonalInfo from "../components/Personal-info";
 import Courses from "../components/Courses";
 import List from "../components/List";
 import Error from "./Error";
+import {CvModel} from "../models/CvModel";
 
 export default function Cv() {
 
     const {t, i18n} = useTranslation(['cv']);
 
-    let cv = t("cv", {returnObjects: true})
-    if (cv === "cv") {
+    let cv: CvModel = t("cv", {returnObjects: true})
+    console.log(cv)
+    if (cv === undefined) {
         return (
             <Error />
         )
     }
 
     let age = 0
-    if (cv.personal_info.born !== undefined) {
-        age = Math.floor((new Date() - new Date(cv.personal_info.born).getTime()) / 3.15576e+10)
+    if (cv.personalInfo.born !== undefined) {
+        age = Math.floor((new Date() - new Date(cv.personalInfo.born).getTime()) / 3.15576e+10)
     }
 
     return (
@@ -31,30 +33,30 @@ export default function Cv() {
                         Charlier Guillaume
                     </div>
                     <div className={"text-3xl text-g_blue-dark"}>
-                        {cv.label}
+                        {cv.labels.job}
                     </div>
                 </div>
                 <div className={"space-y-2"}>
                     <PersonalInfo
-                        text={cv.personal_info.address.number + ", " + cv.personal_info.address.street + " "
-                        + cv.personal_info.address.postal_code + " " + cv.personal_info.address.town}
+                        text={cv.personalInfo.address.number + ", " + cv.personalInfo.address.street + " "
+                        + cv.personalInfo.address.postalCode + " " + cv.personalInfo.address.town}
                         icon={mdiMapMarkerOutline}
                     />
                     <PersonalInfo
-                        text={cv.personal_info.phone}
+                        text={cv.personalInfo.phone}
                         icon={mdiPhoneOutline}
                     />
                     <PersonalInfo
-                        text={cv.personal_info.email}
+                        text={cv.personalInfo.email}
                         icon={mdiEmailOutline}
                     />
                     <PersonalInfo
-                        text={cv.personal_info.linkedIn}
+                        text={cv.personalInfo.linkedIn}
                         icon={mdiLink}
                         rotate={-45}
                     />
                     <PersonalInfo
-                        text={cv.personal_info.driving_licence}
+                        text={cv.personalInfo.drivingLicence}
                         icon={mdiCarOutline}
                     />
                     <PersonalInfo
@@ -63,16 +65,16 @@ export default function Cv() {
                     />
 
                     <div className={"space-y-5"}>
-                        <List label={cv.me.qualities_label} elements={cv.me.qualities} Style={"text-g_blue-dark"}/>
-                        <List label={cv.me.faults_label} elements={cv.me.faults} Style={"text-g_blue-dark"}/>
-                        <List label={cv.me.languages_label} elements={cv.me.languages} Style={"text-g_blue-dark"}/>
-                        <List label={cv.me.hobbies_label} elements={cv.me.hobbies} Style={"text-g_blue-dark"}/>
+                        <List label={cv.labels.qualities} elements={cv.qualities} Style={"text-g_blue-dark"}/>
+                        <List label={cv.labels.faults} elements={cv.faults} Style={"text-g_blue-dark"}/>
+                        <List label={cv.labels.languages} elements={cv.languages} Style={"text-g_blue-dark"}/>
+                        <List label={cv.labels.hobbies} elements={cv.hobbies} Style={"text-g_blue-dark"}/>
                     </div>
                 </div>
                 <div className={"space-y-9"}>
-                    <Courses courses={cv.experiences} label={cv.experiences_label}/>
-                    <Courses courses={cv.formations} label={cv.formations_label}/>
-                    <List label={cv.it_skills_label} elements={cv.it_skills} Style={"text-3xl text-g_blue-dark"} />
+                    <Courses courses={cv.experiences} label={cv.labels.experiences}/>
+                    <Courses courses={cv.formations} label={cv.labels.formations}/>
+                    <List label={cv.labels.itSkills} elements={cv.itSkills} Style={"text-3xl text-g_blue-dark"} />
                 </div>
             </div>
         </div>
