@@ -23,7 +23,7 @@ export default function Cv() {
 
     return (
         <div className="flex flex-col items-center p-10">
-            <div className={"grid grid-cols-2 grid-cols-2-cv"}>
+            <div className={"grid grid-cols-2 grid-cols-2-cv m-auto gap-2"}>
                 <img src={process.env.PUBLIC_URL + "/assets/images/me.png"} alt={""} width={"45%"}
                      className={"block m-auto"}/>
                 <div className={"space-y-5 "}>
