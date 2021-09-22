@@ -69,6 +69,7 @@ cv:
       label: CESS
       details:
         - Mathématiques et Sciences Fortes
+  it_skills_label: Compétences
   it_skills:
     - Microsoft Office
     - Python

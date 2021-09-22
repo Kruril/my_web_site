@@ -69,6 +69,7 @@ cv:
       label: CESS
       details:
         - Mathematics and Sciences
+  it_skills_label: Skills
   it_skills:
     - Microsoft Office
     - Python

@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {
             gridTemplateColumns: {
-                '2-cv': '35% auto'
+                '2-cv': 'auto auto'
             }
         },
         colors: {

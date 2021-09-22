@@ -1,3 +1,5 @@
+import List from "./List";
+
 export default function Course(props) {
 
     const course = {
@@ -8,23 +10,12 @@ export default function Course(props) {
         details: props.course.details
     }
 
-    let details = []
-
-    for (const detail of course.details) {
-        details.push(<li key={detail}>{detail}</li>)
-    }
-
     return (
         <div>
             <div className={"text-2xl text-g_beige-dark"}>
                 {course.start} {course.start? "/": ""} {course.end} - {course.label}
             </div>
-            <div className={"text-2xl text-g_beige-dark font-bold"}>
-                {course.place}
-            </div>
-            <ul className={"list-disc list-inside ml-4"}>
-                {details}
-            </ul>
+            <List label={course.place} elements={course.details}  Style={"text-g_beige-dark font-bold"}/>
         </div>
     )
 }

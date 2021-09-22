@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/common.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/common.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/cv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/cv.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/cv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Course.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Course.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Personal-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Personal-info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +41,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -111,7 +120,7 @@
       <workItem from="1631893791704" duration="6930000" />
       <workItem from="1632053808093" duration="14646000" />
       <workItem from="1632125545520" duration="23844000" />
-      <workItem from="1632211012679" duration="8106000" />
+      <workItem from="1632211012679" duration="12328000" />
     </task>
     <servers />
   </component>
@@ -129,5 +138,8 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
