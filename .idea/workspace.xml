@@ -5,24 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/Luna.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/battle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/cabinet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/faceter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/okeOyibo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/pae.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/projects/site.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/project.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/ProjectModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/AboutModel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/CommonModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CommonModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/CvModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CvModel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +127,7 @@
       <workItem from="1633021076090" duration="1811000" />
       <workItem from="1633031022526" duration="652000" />
       <workItem from="1633037679016" duration="3399000" />
-      <workItem from="1633073802960" duration="2724000" />
+      <workItem from="1633073802960" duration="4733000" />
     </task>
     <servers />
   </component>

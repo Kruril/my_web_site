@@ -1,10 +1,10 @@
-export let CommonLabels: {
-    about: String,
-    whoAmI: String,
-    technologies: String,
+export interface CommonLabels {
+    about: string,
+    whoAmI: string,
+    technologies: string,
 }
 
-export let AboutModel: {
-    whoAmI: String,
-    technologies: [String],
+export interface AboutModel {
+    whoAmI: string,
+    technologies: [string],
 }
