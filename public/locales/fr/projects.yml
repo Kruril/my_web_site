@@ -1,0 +1,67 @@
+projects:
+  - name: Luna
+    url: https://github.com/Kruril/LunaV2
+    description: Le projet a pour but d'ajouter dans un calendrier les phases lunaire.
+    image: assets/projects/Luna.png
+    state: En cours
+    technologies:
+      - Python
+      - TypeScript
+      - AWS Lambda
+  - name: Oke-oyibo
+    url: https://github.com/Kruril/oke-oyibo
+    description: Survive, Survive sur une ile desert... Seul un bateau vous sauvera.
+    image: assets/projects/OkeOyibo.png
+    state: Terminé
+    technologies:
+      - C++
+      - Make
+  - name: Faceter
+    url: https://github.com/Kruril/faceter
+    description: Un réseau social se base sur Facebook et Twitter.
+    image: assets/projects/faceter.png
+    state: Terminé
+    technologies:
+      - HTML
+      - CSS
+      - JavaScript
+      - Preact
+      - PHP
+      - SQL
+  - name: Cabinet medical
+    url: https://github.com/Kruril/Project_C
+    description: Application de gestion d'un cabinet de médecins écrite dans le cadre du cours de langage C.
+    image: assets/projects/cabinet.png
+    state: Terminé
+    technologies:
+      - C
+      - Make
+  - name: Battle of Knowledges
+    url: https://github.com/Kruril/BattleOfKnowledges
+    description: Un quiz se bassant sur le quatre à la suite.
+    image: assets/projects/battle.png
+    state: Terminé
+    technologies:
+      - Java
+      - JavaFX
+      - GSON
+  - name: Site Web
+    url: https://github.com/Kruril/my_web_site
+    description: Site Web personnel.
+    image: assets/projects/site.png
+    state: En cours
+    technologies:
+      - React
+      - Tailwind CSS
+      - HTML
+  - name: PAE
+    url: https://github.com/Kruril/pae
+    description: Gestionaire des programmes annuel de l'étudiant.
+    image: assets/projects/pae.png
+    state: Terminé
+    technologies:
+      - Java
+      - JavaEE
+      - React
+      - Tailwind CSS
+      - HTML

@@ -1,1 +1,91 @@
-{}
+{
+  "projects": [
+    {
+      "name": "Luna",
+      "url": "https://github.com/Kruril/LunaV2",
+      "description": "The project aims to add in a calendar the lunar phases.",
+      "image": "assets/projects/Luna.png",
+      "state": "Wip",
+      "technologies": [
+        "Python",
+        "TypeScript",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "name": "Oke-oyibo",
+      "url": "https://github.com/Kruril/oke-oyibo",
+      "description": "Survive, Survive on a desert island... Only a boat will save you.",
+      "image": "assets/projects/OkeOyibo.png",
+      "state": "Finish",
+      "technologies": [
+        "C++",
+        "Make"
+      ]
+    },
+    {
+      "name": "Faceter",
+      "url": "https://github.com/Kruril/faceter",
+      "description": "A social network based on Facebook and Twitter.",
+      "image": "assets/projects/faceter.png",
+      "state": "Finish",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Preact",
+        "PHP",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Cabinet medical",
+      "url": "https://github.com/Kruril/Project_C",
+      "description": "Application for the management of a doctor's office written for the C language course.",
+      "image": "assets/projects/cabinet.png",
+      "state": "Finish",
+      "technologies": [
+        "C",
+        "Make"
+      ]
+    },
+    {
+      "name": "Battle of Knowledges",
+      "url": "https://github.com/Kruril/BattleOfKnowledges",
+      "description": "A quiz based on four in a row.",
+      "image": "assets/projects/battle.png",
+      "state": "Finish",
+      "technologies": [
+        "Java",
+        "JavaFX",
+        "GSON"
+      ]
+    },
+    {
+      "name": "Site Web",
+      "url": "https://github.com/Kruril/my_web_site",
+      "description": "Personal website.",
+      "image": "assets/projects/site.png",
+      "state": "Wip",
+      "technologies": [
+        "React",
+        "Tailwind CSS",
+        "HTML"
+      ]
+    },
+    {
+      "name": "PAE",
+      "url": "https://github.com/Kruril/pae",
+      "description": "Manager of the student's annual programs.",
+      "image": "assets/projects/pae.png",
+      "state": "Finish",
+      "technologies": [
+        "Java",
+        "JavaEE",
+        "React",
+        "Tailwind CSS",
+        "HTML"
+      ]
+    }
+  ]
+}

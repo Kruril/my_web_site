@@ -5,22 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/models/AboutModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/CommonModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/CvModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/Luna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/battle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/cabinet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/faceter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/okeOyibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/pae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/project.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/ProjectModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/cv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/common.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/common.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/cv.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/cv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/fr/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1nQhC6R9TikBvNQRw3rkyhgA9J2" />
   <component name="ProjectLevelVcsManager">
@@ -125,7 +135,12 @@
       <workItem from="1631893791704" duration="6930000" />
       <workItem from="1632053808093" duration="14646000" />
       <workItem from="1632125545520" duration="23844000" />
-      <workItem from="1632211012679" duration="29049000" />
+      <workItem from="1632211012679" duration="29842000" />
+      <workItem from="1632998595047" duration="6252000" />
+      <workItem from="1633021076090" duration="1811000" />
+      <workItem from="1633031022526" duration="652000" />
+      <workItem from="1633037679016" duration="3399000" />
+      <workItem from="1633073802960" duration="2724000" />
     </task>
     <servers />
   </component>

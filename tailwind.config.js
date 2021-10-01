@@ -7,6 +7,12 @@ module.exports = {
         extend: {
             gridTemplateColumns: {
                 '2-cv': 'auto auto'
+            },
+            width: {
+                "img-custom": "592px"
+            },
+            height: {
+                "img-custom": "386px"
             }
         },
         colors: {
@@ -24,6 +30,7 @@ module.exports = {
             gray: colors.trueGray,
             red: colors.red,
             yellow: colors.amber,
+            green: colors.green,
         },
     },
     variants: {
