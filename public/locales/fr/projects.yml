@@ -11,7 +11,7 @@ projects:
   - name: Oke-oyibo
     url: https://github.com/Kruril/oke-oyibo
     description: Survive, Survive sur une ile desert... Seul un bateau vous sauvera.
-    image: assets/projects/OkeOyibo.png
+    image: assets/projects/game.png
     state: Terminé
     technologies:
       - C++

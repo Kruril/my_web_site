@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/projects/game.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/AboutModel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CommonModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CommonModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/CvModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/CvModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/projects.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/projects.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/ProjectModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/ProjectModel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/locales/fr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/projects" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\assets\projects" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\locales\fr" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\assets" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src\components" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\locales\en" />
-      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\assets\image" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src\locales\en" />
@@ -127,7 +131,7 @@
       <workItem from="1633021076090" duration="1811000" />
       <workItem from="1633031022526" duration="652000" />
       <workItem from="1633037679016" duration="3399000" />
-      <workItem from="1633073802960" duration="4733000" />
+      <workItem from="1633073802960" duration="6094000" />
     </task>
     <servers />
   </component>

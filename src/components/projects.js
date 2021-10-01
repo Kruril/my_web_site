@@ -9,6 +9,13 @@ export default function Projects() {
     const rawProjects: ProjectsModel = t("projects", { returnObjects: true})
 
     let projects = []
+    console.log(rawProjects.sort(a => {
+        if (a.state === "Terminé" || a.state === "Finish") {
+            return 1
+        } else {
+            return -1
+        }
+    }))
 
     for (const project of rawProjects) {
         projects.push(

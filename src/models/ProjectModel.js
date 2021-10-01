@@ -3,7 +3,7 @@ export interface ProjectModel {
     url: string,
     description: string,
     image: string,
-    state: boolean,
+    state: string,
     technologies: [string],
 }
 
