@@ -13,7 +13,17 @@ module.exports = {
             },
             height: {
                 "img-custom": "386px"
-            }
+            },
+            maxHeight: {
+                "img-custom": "386px"
+            },
+            maxWidth: {
+                "img-custom": "592px",
+                "me": "11rem"
+            },
+            minHeight: {
+                "12": "3rem"
+            },
         },
         colors: {
             g_blue: {

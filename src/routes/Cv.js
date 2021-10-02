@@ -24,11 +24,11 @@ export default function Cv() {
     }
 
     return (
-        <div className="flex flex-col items-center p-10">
-            <div className={"grid grid-cols-2 grid-cols-2-cv m-auto gap-2"}>
-                <img src={process.env.PUBLIC_URL + "/assets/images/me.png"} alt={""} width={"45%"}
-                     className={"block m-auto"}/>
-                <div className={"space-y-5 "}>
+        <div className="flex flex-col max-w-5xl items-center p-10 m-auto">
+            <div className={"grid sm:grid-cols-2 gap-2 w-auto h-auto grid-cols-1"}>
+                <img src={process.env.PUBLIC_URL + "/assets/images/me.png"} alt={"me"}
+                     className={"max-w-me w-full h-auto block m-auto"}/>
+                <div className={"space-y-5 my-auto"}>
                     <div className={"text-5xl"}>
                         Charlier Guillaume
                     </div>
@@ -36,7 +36,7 @@ export default function Cv() {
                         {cv.labels.job}
                     </div>
                 </div>
-                <div className={"space-y-2"}>
+                <div className={"space-y-2 mx-auto"}>
                     <PersonalInfo
                         text={cv.personalInfo.address.number + ", " + cv.personalInfo.address.street + " "
                         + cv.personalInfo.address.postalCode + " " + cv.personalInfo.address.town}

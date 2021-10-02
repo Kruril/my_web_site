@@ -14,11 +14,11 @@ export default function Project(props) {
 
     return (
         <div className={"border-2 rounded-2xl p-6 shadow-lg space-y-2"}>
-            <div className={"relative w-full border-b-4 border-g_beige-dark"}>
-                <span className={"text-2xl text-g_beige-dark font-bold"}><a href={project.url} target={"_blank"} rel="noreferrer">{project.name}</a></span>
-                <span className={color + " rounded inset-y-0 right-0 absolute text-center h-3/4 w-1/6"}>{project.state}</span>
+            <div className={"flex items-center border-b-4 border-g_beige-dark"}>
+                <span className={"text-2xl text-g_beige-dark font-bold flex-grow"}><a href={project.url} target={"_blank"} rel="noreferrer">{project.name}</a></span>
+                <span className={color + " rounded object-right text-center px-2"}>{project.state}</span>
             </div>
-            <img src={process.env.PUBLIC_URL + project.image} alt={project.name} className={"w-img-custom h-img-custom"}/>
+            <img src={process.env.PUBLIC_URL + project.image} alt={project.name} className={"max-w-img-custom w-full max-h-img-custom h-auto block m-auto"}/>
             <span>
                 {project.description}
             </span>
