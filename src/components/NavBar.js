@@ -19,7 +19,7 @@ export default function NavBar() {
         let cv: CvModel = t("cv", {returnObjects: true, ns: "cv"})
         print = (
             <button onClick={() => GenerateCv(cv, i18n.language)}
-                    className={"hover:text-gray-300"}>
+                    className={"hover:text-gray-300 "}>
                 <Icon path={mdiFileDownload} size={1} className={"mr-2"}/>
             </button>
         )
@@ -34,20 +34,27 @@ export default function NavBar() {
                     Charlier Guillaume
                 </Link>
             </div>
-            <div className="object-right space-x-2">
-                {print}
-                <Link to={"/about"} className={"text-lg hover:text-gray-300 "}>
-                    {t('labels.about')}
-                </Link>
+            <div className={"text-center"}>
+                <div className={"space-x-5 inline"}>
+                    {print}
+                    <Link to={"/cv"} className={"text-lg hover:text-gray-300"}>
+                        Cv
+                    </Link>
+                    <Link to={"/about"} className={"text-lg hover:text-gray-300 "}>
+                        {t('labels.about')}
+                    </Link>
+                </div>
 
-                <button type="button" onClick={() => changeLanguage('fr')}
-                        className={"flex-grow text-lg w-8 hover:text-gray-300"}>
-                    fr
-                </button>
-                <button type="button" onClick={() => changeLanguage('en')}
-                        className={"flex-grow text-lg w-8 hover:text-gray-300"}>
-                    en
-                </button>
+                <div className={"inline"}>
+                    <button type="button" onClick={() => changeLanguage('fr')}
+                            className={"flex-grow text-lg w-8 hover:text-gray-300"}>
+                        fr
+                    </button>
+                    <button type="button" onClick={() => changeLanguage('en')}
+                            className={"flex-grow text-lg w-8 hover:text-gray-300"}>
+                        en
+                    </button>
+                </div>
 
             </div>
         </div>

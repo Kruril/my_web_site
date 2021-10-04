@@ -3,7 +3,7 @@ labels:
   whoAmI: Who am I ?
   technologies: Used technologies
 about:
-  whoAmI: I am a young Full Stack developer with a preference for the Backend. I followed a bachelor's degree in IT at Mons. You can see my
+  whoAmI: I am a young Full Stack developer with a preference for the Backend. I followed a bachelor's degree in IT at Mons.
   technologies:
     - ReactJS
     - Tailwinds CSS

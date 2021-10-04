@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/service/CvGenerator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/AboutSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/common.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/common.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/common.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/fr/common.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/fr/common.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +136,7 @@
       <workItem from="1633160541750" duration="850000" />
       <workItem from="1633161400905" duration="69000" />
       <workItem from="1633161523269" duration="6585000" />
-      <workItem from="1633174185531" duration="31995000" />
+      <workItem from="1633174185531" duration="39960000" />
     </task>
     <servers />
   </component>
