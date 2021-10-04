@@ -6,15 +6,16 @@ import List from "../components/List";
 import Error from "./Error";
 import {CvModel} from "../models/CvModel";
 
+
 export default function Cv() {
 
     const {t, i18n} = useTranslation(['cv']);
 
     let cv: CvModel = t("cv", {returnObjects: true})
-    console.log(cv)
+
     if (cv === undefined) {
         return (
-            <Error />
+            <Error/>
         )
     }
 
@@ -24,7 +25,7 @@ export default function Cv() {
     }
 
     return (
-        <div className="flex flex-col max-w-5xl items-center p-10 m-auto">
+        <div className="max-w-5xl items-center p-10 m-auto flex-grow">
             <div className={"grid sm:grid-cols-2 gap-2 w-auto h-auto grid-cols-1"}>
                 <img src={process.env.PUBLIC_URL + "/assets/images/me.png"} alt={"me"}
                      className={"max-w-me w-full h-auto block m-auto"}/>
@@ -60,7 +61,7 @@ export default function Cv() {
                         icon={mdiCarOutline}
                     />
                     <PersonalInfo
-                        text={age + (i18n.language === "fr"? " ans": " years")}
+                        text={age + (i18n.language === "fr" ? " ans" : " years")}
                         icon={mdiCake}
                     />
 
@@ -74,7 +75,7 @@ export default function Cv() {
                 <div className={"space-y-9"}>
                     <Courses courses={cv.experiences} label={cv.labels.experiences}/>
                     <Courses courses={cv.formations} label={cv.labels.formations}/>
-                    <List label={cv.labels.itSkills} elements={cv.itSkills} Style={"text-3xl text-g_blue-dark"} />
+                    <List label={cv.labels.itSkills} elements={cv.itSkills} Style={"text-3xl text-g_blue-dark"}/>
                 </div>
             </div>
         </div>

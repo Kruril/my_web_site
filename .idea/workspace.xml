@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d03fcfc7-d917-45bb-adb6-d34e7f4ff8ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/service/CvGenerator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/cv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/locales/en/cv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/cv.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/project.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/Cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Cv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +51,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/projects" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Projet_PAE/pea-final/pGroupeB3frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="ts.external.directory.path" value="C:\Users\guill\AppData\Local\JetBrains\Toolbox\apps\WebStorm\ch-0\212.5284.41\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -75,11 +74,11 @@
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\locales\en" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src" />
+      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\assets" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src\locales\en" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src\locales\fr" />
       <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src\assets\translations" />
-      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\src" />
-      <recent name="C:\Users\guill\Programmation\Site_Git\my_web_site\public\assets" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -135,6 +134,7 @@
       <workItem from="1633160541750" duration="850000" />
       <workItem from="1633161400905" duration="69000" />
       <workItem from="1633161523269" duration="6585000" />
+      <workItem from="1633174185531" duration="31995000" />
     </task>
     <servers />
   </component>
