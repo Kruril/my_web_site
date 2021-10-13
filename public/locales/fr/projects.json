@@ -17,7 +17,7 @@
       "url": "https://github.com/Kruril/oke-oyibo",
       "description": "Survive, Survive sur une ile desert... Seul un bateau vous sauvera.",
       "image": "assets/projects/game.png",
-      "state": "Terminé",
+      "state": "Termin\u00c3\u00a9",
       "technologies": [
         "C++",
         "Make"
@@ -26,9 +26,9 @@
     {
       "name": "Faceter",
       "url": "https://github.com/Kruril/faceter",
-      "description": "Un réseau social se base sur Facebook et Twitter.",
+      "description": "Un r\u00c3\u00a9seau social se base sur Facebook et Twitter.",
       "image": "assets/projects/faceter.png",
-      "state": "Terminé",
+      "state": "Termin\u00c3\u00a9",
       "technologies": [
         "HTML",
         "CSS",
@@ -41,9 +41,9 @@
     {
       "name": "Cabinet medical",
       "url": "https://github.com/Kruril/Project_C",
-      "description": "Application de gestion d'un cabinet de médecins écrite dans le cadre du cours de langage C.",
+      "description": "Application de gestion d'un cabinet de m\u00c3\u00a9decins \u00c3\u00a9crite dans le cadre du cours de langage C.",
       "image": "assets/projects/cabinet.png",
-      "state": "Terminé",
+      "state": "Termin\u00c3\u00a9",
       "technologies": [
         "C",
         "Make"
@@ -52,9 +52,9 @@
     {
       "name": "Battle of Knowledges",
       "url": "https://github.com/Kruril/BattleOfKnowledges",
-      "description": "Un quiz se bassant sur le quatre à la suite.",
+      "description": "Un quiz se bassant sur le quatre \u00c3\u00a0 la suite.",
       "image": "assets/projects/battle.png",
-      "state": "Terminé",
+      "state": "Termin\u00c3\u00a9",
       "technologies": [
         "Java",
         "JavaFX",
@@ -76,15 +76,28 @@
     {
       "name": "PAE",
       "url": "https://github.com/Kruril/pae",
-      "description": "Gestionaire des programmes annuel de l'étudiant.",
+      "description": "Gestionaire des programmes annuel de l'\u00c3\u00a9tudiant.",
       "image": "assets/projects/pae.png",
-      "state": "Terminé",
+      "state": "Termin\u00c3\u00a9",
       "technologies": [
         "Java",
         "JavaEE",
         "React",
         "Tailwind CSS",
         "HTML"
+      ]
+    },
+    {
+      "name": "Faceter API (API non officiel)",
+      "url": "https://github.com/Kruril/FaceterAPI",
+      "description": "API GraphQL pour le projet Faceter. Ce projet est un entrainement au GraphQL.",
+      "image": "assets/projects/apiFaceter.png",
+      "state": "En cours",
+      "technologies": [
+        "NodeJS",
+        "Knex",
+        "GraphQL",
+        "Express"
       ]
     }
   ]

@@ -65,3 +65,13 @@ projects:
       - React
       - Tailwind CSS
       - HTML
+  - name: Faceter API (API non officiel)
+    url: https://github.com/Kruril/FaceterAPI
+    description: API GraphQL pour le projet Faceter. Ce projet est un entrainement au GraphQL.
+    image: assets/projects/apiFaceter.png
+    state: En cours
+    technologies:
+      - NodeJS
+      - Knex
+      - GraphQL
+      - Express

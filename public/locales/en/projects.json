@@ -86,6 +86,19 @@
         "Tailwind CSS",
         "HTML"
       ]
+    },
+    {
+      "name": "Faceter API (unofficial API)",
+      "url": "https://github.com/Kruril/FaceterAPI",
+      "description": "GraphQL API for the Faceter project. This project is a training for GraphQL.",
+      "image": "assets/projects/apiFaceter.png",
+      "state": "WIP",
+      "technologies": [
+        "NodeJS",
+        "Knex",
+        "GraphQL",
+        "Express"
+      ]
     }
   ]
 }
