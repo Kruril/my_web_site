@@ -3,11 +3,13 @@ projects:
     url: https://github.com/Kruril/LunaV2
     description: Le projet a pour but d'ajouter dans un calendrier les phases lunaire.
     image: assets/projects/Luna.png
-    state: En cours
+    state: Terminé
     technologies:
       - Python
       - TypeScript
       - AWS Lambda
+      - AWS Event Bridge
+      - AWS S3
   - name: Oke-oyibo
     url: https://github.com/Kruril/oke-oyibo
     description: Survive, Survive sur une ile desert... Seul un bateau vous sauvera.
