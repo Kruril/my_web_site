@@ -12,6 +12,7 @@ export interface PersonalInfo {
     linkedIn: string,
     drivingLicence: string,
     born: string,
+    github: string
 }
 
 export interface Labels {

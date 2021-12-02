@@ -1,8 +1,7 @@
 cv:
   labels:
-    job: Développeur junior Full Stack
+    job: Développeur junior
     qualities: Qualités
-    faults: Défauts
     hobbies: Intérêts
     languages: Langues
     experiences: Expériences
@@ -17,32 +16,38 @@ cv:
     phone: +32 499/29.71.63
     email: guillaume.charlier.2017@gmail.com
     linkedIn: linkedin.com/in/guillaume-charlier-oslo
-    drivingLicence: Permis B (sans voiture)
+    drivingLicence: Permis B
     born: "1999-12-07"
+    github: github.com/Kruril
   qualities:
     - Autonome
-    - Rigoureux
-    - Discipliné
-  faults:
-    - timide
+    - Patient
+    - Capacité d'adaptation
   hobbies:
     - Sport (Squash, Badminton)
     - Animaux
     - Marche
   languages:
     - Francais
-    - Anglais
+    - Anglais (B1)
   experiences:
     - start: Mars 2021
       end: Mai 2021
       label: Développeur Back-end
       place: Necko Technologies
       details:
-        - Réalisation d'application serverless grâce aux Amazon Web Services
+        - Réalisation d'applications serverless grâce aux Amazon Web Services
         - Création d'API en utilisant GraphQl et Aws Smithy
         - Perfectionnement du langage Python
-    - start: Mars 2018
-      end: Mars 2018 (1 semaine)
+    - start: ""
+      end: Juillet 2018
+      label: Préparateur de commande
+      place: Colruyt
+      details:
+        - Préparation des commandes en direction des magasins du groupe Colruyt
+        - Mise en place de chariot dans un temps donné
+    - start: ""
+      end: Mars 2018
       label: Stage d'observation
       place: Proximus
       details:
@@ -50,6 +55,14 @@ cv:
         - Visite des différents services présents sur place et d'un datacenter
         - Mise en place de Query SQL
         - Initialisation de nouveau serveur
+    - start: ""
+      end: Mars 2019
+      label: Encadrement et animation d'enfant de 3 à 12 ans
+      place: Plaine d'Havré
+      details:
+        - Surveillance des enfants durant la journée
+        - Mise en place d'activités pédagogiques
+        - Travail en équipe
   formations:
     - start: 2018
       end: 2021
@@ -57,7 +70,7 @@ cv:
       label: Bachelier en informatique de gestion
       details:
         - Apprentissage de différents langages de programmation
-        - Création d'application Front-end et Back-end
+        - Création d'applications Front-end et Back-end
     - start: ""
       end: Juillet 2019
       place: Coala ASBL Mons

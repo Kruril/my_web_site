@@ -1,5 +1,13 @@
 import {useTranslation} from "react-i18next";
-import {mdiCake, mdiCarOutline, mdiEmailOutline, mdiLink, mdiMapMarkerOutline, mdiPhoneOutline} from "@mdi/js";
+import {
+    mdiCake,
+    mdiCarOutline,
+    mdiEmailOutline,
+    mdiGithub,
+    mdiLink,
+    mdiMapMarkerOutline,
+    mdiPhoneOutline
+} from "@mdi/js";
 import PersonalInfo from "../components/Personal-info";
 import Courses from "../components/Courses";
 import List from "../components/List";
@@ -64,10 +72,14 @@ export default function Cv() {
                         text={age + (i18n.language === "fr" ? " ans" : " years")}
                         icon={mdiCake}
                     />
+                    <PersonalInfo
+                        text={cv.personalInfo.github}
+                        icon={mdiGithub}
+                    />
 
                     <div className={"space-y-5"}>
                         <List label={cv.labels.qualities} elements={cv.qualities} Style={"text-g_blue-dark"}/>
-                        <List label={cv.labels.faults} elements={cv.faults} Style={"text-g_blue-dark"}/>
+                        {/*<List label={cv.labels.faults} elements={cv.faults} Style={"text-g_blue-dark"}/>*/}
                         <List label={cv.labels.languages} elements={cv.languages} Style={"text-g_blue-dark"}/>
                         <List label={cv.labels.hobbies} elements={cv.hobbies} Style={"text-g_blue-dark"}/>
                     </div>

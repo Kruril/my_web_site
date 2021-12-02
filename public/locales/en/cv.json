@@ -1,9 +1,8 @@
-﻿{
+{
   "cv": {
     "labels": {
-      "job": "Junior Full Stack Developer",
+      "job": "Junior Developer",
       "qualities": "Qualities",
-      "faults": "Faults",
       "hobbies": "Hobbies",
       "languages": "Languages",
       "experiences": "Experiences",
@@ -20,16 +19,14 @@
       "phone": "+32 499/29.71.63",
       "email": "guillaume.charlier.2017@gmail.com",
       "linkedIn": "linkedin.com/in/guillaume-charlier-oslo",
-      "drivingLicence": "driving licence (without car)",
-      "born": "1999-12-07"
+      "drivingLicence": "driving licence",
+      "born": "1999-12-07",
+      "github": "github.com/Kruril"
     },
     "qualities": [
       "Autonomous",
-      "Rigorous",
-      "Disciplined"
-    ],
-    "faults": [
-      "shy"
+      "Patient",
+      "Adaptability"
     ],
     "hobbies": [
       "Sports (Squash, Badminton)",
@@ -53,8 +50,18 @@
         ]
       },
       {
-        "start": "March 2018",
-        "end": "March 2018 (1 week)",
+        "start": "",
+        "end": "July 2018",
+        "label": "Order picker",
+        "place": "Colruyt",
+        "details": [
+          "Preparation of orders for the Colruyt Group shops",
+          "Setting up a trolley in a given time"
+        ]
+      },
+      {
+        "start": "",
+        "end": "March 2018",
         "label": "Observation internship",
         "place": "Proximus",
         "details": [
@@ -62,6 +69,17 @@
           "Visit of the different services present on site and of a datacenter",
           "Implementation of Query SQL",
           "Initialization of new server"
+        ]
+      },
+      {
+        "start": "",
+        "end": "March 2019",
+        "label": "Supervision and animation of children from 3 to 12 years old",
+        "place": "Plaine d'Havré",
+        "details": [
+          "Supervision of children during the day",
+          "Setting up educational activities",
+          "Teamwork"
         ]
       }
     ],
