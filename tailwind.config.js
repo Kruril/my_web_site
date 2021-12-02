@@ -28,7 +28,8 @@ module.exports = {
         colors: {
             g_blue: {
                 dark: "#51859C",
-                light: "#8ACEEB"
+                light: "#8ACEEB",
+                deepDark: "#3b6573"
             },
             g_beige: {
                 DEFAULT: "#E8C8A2",
