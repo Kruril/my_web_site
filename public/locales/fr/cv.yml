@@ -31,6 +31,13 @@ cv:
     - Francais
     - Anglais (B1)
   experiences:
+    - start: January 2022
+      end: ""
+      label: Ingénieur informatique
+      place: Speos
+      details:
+        - Développement d'applications clients pour la gestion de leurs documents administratifs
+        - Technologies utilisées Quandient GMC et Java
     - start: Mars 2021
       end: Mai 2021
       label: Développeur Back-end
