@@ -39,6 +39,16 @@
     ],
     "experiences": [
       {
+        "start": "January 2022",
+        "end": "",
+        "label": "ICT Solution Delivery Engineer",
+        "place": "Speos",
+        "details": [
+          "Development of client applications for their administrative document management",
+          "The technologies used are Quandient GMC and java"
+        ]
+      },
+      {
         "start": "March 2021",
         "end": "May 2021",
         "label": "Back-end Developer",

@@ -13,7 +13,7 @@ export default function Course(props) {
     return (
         <div>
             <div className={"text-2xl text-g_beige-dark"}>
-                {course.start} {course.start? "/": ""} {course.end} - {course.label}
+                {course.start} {course.start && course.end ? "/": ""} {course.end} - {course.label}
             </div>
             <List label={course.place} elements={course.details}  Style={"text-g_beige-dark font-bold"}/>
         </div>

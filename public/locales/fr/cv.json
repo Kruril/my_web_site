@@ -3,7 +3,6 @@
     "labels": {
       "job": "Développeur junior",
       "qualities": "Qualités",
-      "faults": "Défauts",
       "hobbies": "Intérêts",
       "languages": "Langues",
       "experiences": "Expériences",
@@ -40,6 +39,16 @@
     ],
     "experiences": [
       {
+        "start": "January 2022",
+        "end": "",
+        "label": "Ingénieur informatique",
+        "place": "Speos",
+        "details": [
+          "Développement d'applications clients pour la gestion de leurs documents administratifs",
+          "Technologies utilisées Quandient GMC et Java"
+        ]
+      },
+      {
         "start": "Mars 2021",
         "end": "Mai 2021",
         "label": "Développeur Back-end",
@@ -75,7 +84,7 @@
       {
         "start": "",
         "end": "Mars 2019",
-        "label": "Encadrement et annimation d'enfant de 3 à 12 ans",
+        "label": "Encadrement et animation d'enfant de 3 à 12 ans",
         "place": "Plaine d'Havré",
         "details": [
           "Surveillance des enfants durant la journée",
